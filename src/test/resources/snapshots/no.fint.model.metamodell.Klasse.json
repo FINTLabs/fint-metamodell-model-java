@@ -1,0 +1,253 @@
+{
+  "abstrakt" : false,
+  "attributter" : [ {
+    "dokumentasjon" : "xtJQivEPiT",
+    "multiplisitet" : "ZtkiynmseAr",
+    "navn" : "H",
+    "skrivbar" : false,
+    "stereotype" : "lemopxBRNFgb",
+    "type" : "TjmpCfPawJtFMWArADgTqqp"
+  }, {
+    "dokumentasjon" : "CcBzoQP",
+    "multiplisitet" : "uMlAljgUagXFlNvcaKfLONdlu",
+    "navn" : "RslKnkF",
+    "skrivbar" : false,
+    "stereotype" : "tGqXWSpGEyukowDvbquXf",
+    "type" : "aVLjRbwzyAeWvJJWuGJJCF"
+  }, {
+    "dokumentasjon" : "yTcvxJFjrlZzspnQHMwCIwKs",
+    "multiplisitet" : "tXquJxCQAwpAoCMloUoSQnCy",
+    "navn" : "EviKuRTiXjTNGflHCNJRpuYDduwbWKp",
+    "skrivbar" : false,
+    "stereotype" : "LvQghHHqmkddMXBnGCyOyAfALL",
+    "type" : "RIGcrmZ"
+  }, {
+    "dokumentasjon" : "nRRONvgKIiPfitEpaGIBRrgoJQiyAkFm",
+    "multiplisitet" : "sQKeOxDtJhmppckomodroHoafUbT",
+    "navn" : "wxAlHcbRvsJfKau",
+    "skrivbar" : true,
+    "stereotype" : "DClbMlPWrAbAFiHaqCIcJbBTyZB",
+    "type" : "BAQpyQzeqXbYiObXhZuXprLD"
+  }, {
+    "dokumentasjon" : "eUIMPRyd",
+    "multiplisitet" : "zkln",
+    "navn" : "bFdhkqpBnXvzaBRTpNXfpV",
+    "skrivbar" : false,
+    "stereotype" : "bsKjbxvnsCReQbItKJewOmmHlgRE",
+    "type" : "OsZwLNiQgEqlapbBcDElWYrlW"
+  }, {
+    "dokumentasjon" : "hXSetTZEeupFkRfYteSetiJpvckqfN",
+    "multiplisitet" : "XgocmrukkFIIAgrPptrlapMmYLBKAa",
+    "navn" : "J",
+    "skrivbar" : true,
+    "stereotype" : "ddZyGTcnjwNzQBRURhmfSlK",
+    "type" : "tqCOmPXUuDsjVHyCVB"
+  }, {
+    "dokumentasjon" : "iIzQgTrzYqJtXpYjkNyoXKfmMXDxhQ",
+    "multiplisitet" : "ryRtUCduiBZbEqgvet",
+    "navn" : "CGFkCYGPEQpqpyltuqdhw",
+    "skrivbar" : false,
+    "stereotype" : "fDKlHd",
+    "type" : "hgrKTHLqvqNGhAYrUG"
+  }, {
+    "dokumentasjon" : "xoDcBANNhyHjzNGf",
+    "multiplisitet" : "OcuHWGRZpAhOaMKoJ",
+    "navn" : "KkQXzacgprsfKmxLsRodJyBJRrXSBQHE",
+    "skrivbar" : true,
+    "stereotype" : "ZvCJPMVFmXwj",
+    "type" : "woDXTdrZbrMkiTl"
+  }, {
+    "dokumentasjon" : "Libswxm",
+    "multiplisitet" : "NJfcccw",
+    "navn" : "vtvZYTcwuua",
+    "skrivbar" : true,
+    "stereotype" : "smgDzkcyPFlxUexsNohMHbmzPCi",
+    "type" : "FboFwjFMJGuzQIU"
+  }, {
+    "dokumentasjon" : "XCcifaHystoOBvzK",
+    "multiplisitet" : "dPJerntTr",
+    "navn" : "uJXLXIrjTwYr",
+    "skrivbar" : true,
+    "stereotype" : "CKJiDaJWrxE",
+    "type" : "uIUhxbOEnrTdXENaHFFEcySRBHlTSG"
+  }, {
+    "dokumentasjon" : "XCcifaHystoOBvzK",
+    "multiplisitet" : "dPJerntTr",
+    "navn" : "uJXLXIrjTwYr",
+    "skrivbar" : true,
+    "stereotype" : "CKJiDaJWrxE",
+    "type" : "uIUhxbOEnrTdXENaHFFEcySRBHlTSG"
+  }, {
+    "dokumentasjon" : "yTcvxJFjrlZzspnQHMwCIwKs",
+    "multiplisitet" : "tXquJxCQAwpAoCMloUoSQnCy",
+    "navn" : "EviKuRTiXjTNGflHCNJRpuYDduwbWKp",
+    "skrivbar" : false,
+    "stereotype" : "LvQghHHqmkddMXBnGCyOyAfALL",
+    "type" : "RIGcrmZ"
+  }, {
+    "dokumentasjon" : "eUIMPRyd",
+    "multiplisitet" : "zkln",
+    "navn" : "bFdhkqpBnXvzaBRTpNXfpV",
+    "skrivbar" : false,
+    "stereotype" : "bsKjbxvnsCReQbItKJewOmmHlgRE",
+    "type" : "OsZwLNiQgEqlapbBcDElWYrlW"
+  }, {
+    "dokumentasjon" : "xoDcBANNhyHjzNGf",
+    "multiplisitet" : "OcuHWGRZpAhOaMKoJ",
+    "navn" : "KkQXzacgprsfKmxLsRodJyBJRrXSBQHE",
+    "skrivbar" : true,
+    "stereotype" : "ZvCJPMVFmXwj",
+    "type" : "woDXTdrZbrMkiTl"
+  }, {
+    "dokumentasjon" : "nRRONvgKIiPfitEpaGIBRrgoJQiyAkFm",
+    "multiplisitet" : "sQKeOxDtJhmppckomodroHoafUbT",
+    "navn" : "wxAlHcbRvsJfKau",
+    "skrivbar" : true,
+    "stereotype" : "DClbMlPWrAbAFiHaqCIcJbBTyZB",
+    "type" : "BAQpyQzeqXbYiObXhZuXprLD"
+  }, {
+    "dokumentasjon" : "xoDcBANNhyHjzNGf",
+    "multiplisitet" : "OcuHWGRZpAhOaMKoJ",
+    "navn" : "KkQXzacgprsfKmxLsRodJyBJRrXSBQHE",
+    "skrivbar" : true,
+    "stereotype" : "ZvCJPMVFmXwj",
+    "type" : "woDXTdrZbrMkiTl"
+  }, {
+    "dokumentasjon" : "xoDcBANNhyHjzNGf",
+    "multiplisitet" : "OcuHWGRZpAhOaMKoJ",
+    "navn" : "KkQXzacgprsfKmxLsRodJyBJRrXSBQHE",
+    "skrivbar" : true,
+    "stereotype" : "ZvCJPMVFmXwj",
+    "type" : "woDXTdrZbrMkiTl"
+  }, {
+    "dokumentasjon" : "Libswxm",
+    "multiplisitet" : "NJfcccw",
+    "navn" : "vtvZYTcwuua",
+    "skrivbar" : true,
+    "stereotype" : "smgDzkcyPFlxUexsNohMHbmzPCi",
+    "type" : "FboFwjFMJGuzQIU"
+  }, {
+    "dokumentasjon" : "Libswxm",
+    "multiplisitet" : "NJfcccw",
+    "navn" : "vtvZYTcwuua",
+    "skrivbar" : true,
+    "stereotype" : "smgDzkcyPFlxUexsNohMHbmzPCi",
+    "type" : "FboFwjFMJGuzQIU"
+  }, {
+    "dokumentasjon" : "XCcifaHystoOBvzK",
+    "multiplisitet" : "dPJerntTr",
+    "navn" : "uJXLXIrjTwYr",
+    "skrivbar" : true,
+    "stereotype" : "CKJiDaJWrxE",
+    "type" : "uIUhxbOEnrTdXENaHFFEcySRBHlTSG"
+  }, {
+    "dokumentasjon" : "Libswxm",
+    "multiplisitet" : "NJfcccw",
+    "navn" : "vtvZYTcwuua",
+    "skrivbar" : true,
+    "stereotype" : "smgDzkcyPFlxUexsNohMHbmzPCi",
+    "type" : "FboFwjFMJGuzQIU"
+  }, {
+    "dokumentasjon" : "xtJQivEPiT",
+    "multiplisitet" : "ZtkiynmseAr",
+    "navn" : "H",
+    "skrivbar" : false,
+    "stereotype" : "lemopxBRNFgb",
+    "type" : "TjmpCfPawJtFMWArADgTqqp"
+  }, {
+    "dokumentasjon" : "hXSetTZEeupFkRfYteSetiJpvckqfN",
+    "multiplisitet" : "XgocmrukkFIIAgrPptrlapMmYLBKAa",
+    "navn" : "J",
+    "skrivbar" : true,
+    "stereotype" : "ddZyGTcnjwNzQBRURhmfSlK",
+    "type" : "tqCOmPXUuDsjVHyCVB"
+  }, {
+    "dokumentasjon" : "Libswxm",
+    "multiplisitet" : "NJfcccw",
+    "navn" : "vtvZYTcwuua",
+    "skrivbar" : true,
+    "stereotype" : "smgDzkcyPFlxUexsNohMHbmzPCi",
+    "type" : "FboFwjFMJGuzQIU"
+  }, {
+    "dokumentasjon" : "XCcifaHystoOBvzK",
+    "multiplisitet" : "dPJerntTr",
+    "navn" : "uJXLXIrjTwYr",
+    "skrivbar" : true,
+    "stereotype" : "CKJiDaJWrxE",
+    "type" : "uIUhxbOEnrTdXENaHFFEcySRBHlTSG"
+  }, {
+    "dokumentasjon" : "Libswxm",
+    "multiplisitet" : "NJfcccw",
+    "navn" : "vtvZYTcwuua",
+    "skrivbar" : true,
+    "stereotype" : "smgDzkcyPFlxUexsNohMHbmzPCi",
+    "type" : "FboFwjFMJGuzQIU"
+  }, {
+    "dokumentasjon" : "hXSetTZEeupFkRfYteSetiJpvckqfN",
+    "multiplisitet" : "XgocmrukkFIIAgrPptrlapMmYLBKAa",
+    "navn" : "J",
+    "skrivbar" : true,
+    "stereotype" : "ddZyGTcnjwNzQBRURhmfSlK",
+    "type" : "tqCOmPXUuDsjVHyCVB"
+  }, {
+    "dokumentasjon" : "iIzQgTrzYqJtXpYjkNyoXKfmMXDxhQ",
+    "multiplisitet" : "ryRtUCduiBZbEqgvet",
+    "navn" : "CGFkCYGPEQpqpyltuqdhw",
+    "skrivbar" : false,
+    "stereotype" : "fDKlHd",
+    "type" : "hgrKTHLqvqNGhAYrUG"
+  }, {
+    "dokumentasjon" : "CcBzoQP",
+    "multiplisitet" : "uMlAljgUagXFlNvcaKfLONdlu",
+    "navn" : "RslKnkF",
+    "skrivbar" : false,
+    "stereotype" : "tGqXWSpGEyukowDvbquXf",
+    "type" : "aVLjRbwzyAeWvJJWuGJJCF"
+  }, {
+    "dokumentasjon" : "hXSetTZEeupFkRfYteSetiJpvckqfN",
+    "multiplisitet" : "XgocmrukkFIIAgrPptrlapMmYLBKAa",
+    "navn" : "J",
+    "skrivbar" : true,
+    "stereotype" : "ddZyGTcnjwNzQBRURhmfSlK",
+    "type" : "tqCOmPXUuDsjVHyCVB"
+  }, {
+    "dokumentasjon" : "xoDcBANNhyHjzNGf",
+    "multiplisitet" : "OcuHWGRZpAhOaMKoJ",
+    "navn" : "KkQXzacgprsfKmxLsRodJyBJRrXSBQHE",
+    "skrivbar" : true,
+    "stereotype" : "ZvCJPMVFmXwj",
+    "type" : "woDXTdrZbrMkiTl"
+  }, {
+    "dokumentasjon" : "XCcifaHystoOBvzK",
+    "multiplisitet" : "dPJerntTr",
+    "navn" : "uJXLXIrjTwYr",
+    "skrivbar" : true,
+    "stereotype" : "CKJiDaJWrxE",
+    "type" : "uIUhxbOEnrTdXENaHFFEcySRBHlTSG"
+  }, {
+    "dokumentasjon" : "xtJQivEPiT",
+    "multiplisitet" : "ZtkiynmseAr",
+    "navn" : "H",
+    "skrivbar" : false,
+    "stereotype" : "lemopxBRNFgb",
+    "type" : "TjmpCfPawJtFMWArADgTqqp"
+  }, {
+    "dokumentasjon" : "yTcvxJFjrlZzspnQHMwCIwKs",
+    "multiplisitet" : "tXquJxCQAwpAoCMloUoSQnCy",
+    "navn" : "EviKuRTiXjTNGflHCNJRpuYDduwbWKp",
+    "skrivbar" : false,
+    "stereotype" : "LvQghHHqmkddMXBnGCyOyAfALL",
+    "type" : "RIGcrmZ"
+  } ],
+  "dokumentasjon" : "YViYWYWbCkzvYpIvxdYDuHqhmLGV",
+  "id" : {
+    "gyldighetsperiode" : {
+      "beskrivelse" : "llRuaYCuLILxcsrLRaO",
+      "slutt" : 1441349707277,
+      "start" : 1266693243085
+    },
+    "identifikatorverdi" : "EkcrCTBCeIpSsXfSNtRom"
+  },
+  "navn" : "pNgLlSbOElfngYWRwWoLWhXQak",
+  "stereotype" : "SICoGlmbUrtozEY"
+}
