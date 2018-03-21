@@ -10,15 +10,13 @@ import lombok.NonNull;
 import java.util.List;
 import no.fint.model.*;
 
-import java.util.Date;
-
 @Data
 @NoArgsConstructor
 @EqualsAndHashCode
 @ToString
-public class Periode implements FintComplexDatatypeObject {
-    private String beskrivelse;
-    private Date slutt;
+public class Multiplisitet implements FintComplexDatatypeObject {
     @NonNull
-    private Date start;
+    private String nedre;
+    @NonNull
+    private String ovre;
 }

@@ -10,31 +10,25 @@ import lombok.NonNull;
 import java.util.List;
 import no.fint.model.*;
 
-import no.fint.model.metamodell.kompleksedatatyper.Attributt;
 import no.fint.model.metamodell.kompleksedatatyper.Dokumentasjon;
 import no.fint.model.metamodell.kompleksedatatyper.Identifikator;
+import no.fint.model.metamodell.kompleksedatatyper.Multiplisitet;
 
 @Data
 @NoArgsConstructor
 @EqualsAndHashCode
 @ToString
-public class Klasse implements FintMainObject {
+public class Relasjon implements FintMainObject {
     public enum Relasjonsnavn {
-            RELASJON,
-            PAKKE,
-            ARVER
+            KLASSE
     }
 
-    @NonNull
-    private Boolean abstrakt;
-    @NonNull
-    private List<Attributt> attributter;
     @NonNull
     private List<Dokumentasjon> dokumentasjon;
     @NonNull
     private Identifikator id;
     @NonNull
-    private String navn;
+    private List<Multiplisitet> multiplisitet;
     @NonNull
-    private String stereotype;
+    private String navn;
 }

@@ -1,4 +1,4 @@
-// Built from tag v0.1.0
+// Built from tag v0.2.0
 
 package no.fint.model.metamodell;
 
@@ -12,7 +12,10 @@ public enum MetamodellActions {
 	UPDATE_KLASSE,
 	GET_PAKKE,
 	GET_ALL_PAKKE,
-	UPDATE_PAKKE
+	UPDATE_PAKKE,
+	GET_RELASJON,
+	GET_ALL_RELASJON,
+	UPDATE_RELASJON
 	;
 
 

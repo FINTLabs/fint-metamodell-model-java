@@ -1,4 +1,4 @@
-// Built from tag v0.1.0
+// Built from tag v0.2.0
 
 package no.fint.model.metamodell.kompleksedatatyper;
 
@@ -10,18 +10,20 @@ import lombok.NonNull;
 import java.util.List;
 import no.fint.model.*;
 
+import no.fint.model.metamodell.kompleksedatatyper.Dokumentasjon;
+import no.fint.model.metamodell.kompleksedatatyper.Multiplisitet;
+
 @Data
 @NoArgsConstructor
 @EqualsAndHashCode
 @ToString
 public class Attributt implements FintComplexDatatypeObject {
     @NonNull
-    private String dokumentasjon;
+    private List<Dokumentasjon> dokumentasjon;
     @NonNull
-    private String multiplisitet;
+    private Multiplisitet multiplisitet;
     @NonNull
     private String navn;
-    private Boolean skrivbar;
     @NonNull
     private String stereotype;
     @NonNull
