@@ -1,4 +1,4 @@
-// Built from tag v0.2.0
+// Built from tag master
 
 package no.fint.model.metamodell.kompleksedatatyper;
 

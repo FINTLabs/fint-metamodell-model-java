@@ -1,4 +1,4 @@
-// Built from tag v0.2.0
+// Built from tag master
 
 package no.fint.model.metamodell;
 
@@ -8,8 +8,7 @@ import lombok.EqualsAndHashCode;
 import lombok.ToString;
 import lombok.NonNull;
 import java.util.List;
-import no.fint.model.*;
-
+import no.fint.model.FintMainObject;
 import no.fint.model.metamodell.kompleksedatatyper.Attributt;
 import no.fint.model.metamodell.kompleksedatatyper.Dokumentasjon;
 import no.fint.model.metamodell.kompleksedatatyper.Identifikator;
