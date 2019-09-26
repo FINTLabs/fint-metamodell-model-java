@@ -15,7 +15,7 @@ import no.fint.model.metamodell.kompleksedatatyper.Identifikator;
 @NoArgsConstructor
 @EqualsAndHashCode
 @ToString
-public class Pakke implements FintMainObject {
+public class Kontekst implements FintMainObject {
     public enum Relasjonsnavn {
             UNDERORDNET,
             KLASSE,

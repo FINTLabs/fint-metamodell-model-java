@@ -20,7 +20,7 @@ import no.fint.model.metamodell.kompleksedatatyper.Identifikator;
 public class Klasse implements FintMainObject {
     public enum Relasjonsnavn {
             RELASJON,
-            PAKKE,
+            KONTEKST,
             ARVER
     }
 
