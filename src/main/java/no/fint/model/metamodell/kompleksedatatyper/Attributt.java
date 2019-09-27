@@ -6,8 +6,9 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.EqualsAndHashCode;
 import lombok.ToString;
-import lombok.NonNull;
 import java.util.List;
+import javax.validation.Valid;
+import javax.validation.constraints.*;
 import no.fint.model.FintComplexDatatypeObject;
 import no.fint.model.metamodell.kompleksedatatyper.Dokumentasjon;
 import no.fint.model.metamodell.kompleksedatatyper.Multiplisitet;
@@ -17,14 +18,13 @@ import no.fint.model.metamodell.kompleksedatatyper.Multiplisitet;
 @EqualsAndHashCode
 @ToString
 public class Attributt implements FintComplexDatatypeObject {
-    @NonNull
-    private List<Dokumentasjon> dokumentasjon;
-    @NonNull
-    private Multiplisitet multiplisitet;
-    @NonNull
+    private List<@Valid Dokumentasjon> dokumentasjon;
+    @NotNull
+    private @Valid Multiplisitet multiplisitet;
+    @NotBlank
     private String navn;
-    @NonNull
+    @NotBlank
     private String stereotype;
-    @NonNull
+    @NotBlank
     private String type;
 }

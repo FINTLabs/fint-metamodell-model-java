@@ -8,12 +8,13 @@ import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import lombok.NonNull;
 import lombok.ToString;
 
 import java.util.Collections;
 import java.util.List;
 import java.util.Map;
+import javax.validation.Valid;
+import javax.validation.constraints.*;
 
 import no.fint.model.FintMainObject;
 import no.fint.model.resource.FintLinks;
@@ -26,11 +27,11 @@ import no.fint.model.metamodell.kompleksedatatyper.Identifikator;
 @ToString
 public class KontekstResource implements FintMainObject, FintLinks {
     // Attributes
-    @NonNull
-    private Identifikator id;
-    @NonNull
+    @NotNull
+    private @Valid Identifikator id;
+    @NotBlank
     private String navn;
-    @NonNull
+    @NotBlank
     private String stereotype;
 
     // Relations

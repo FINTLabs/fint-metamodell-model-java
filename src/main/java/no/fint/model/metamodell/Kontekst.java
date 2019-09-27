@@ -6,8 +6,9 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.EqualsAndHashCode;
 import lombok.ToString;
-import lombok.NonNull;
 import java.util.List;
+import javax.validation.Valid;
+import javax.validation.constraints.*;
 import no.fint.model.FintMainObject;
 import no.fint.model.metamodell.kompleksedatatyper.Identifikator;
 
@@ -22,10 +23,10 @@ public class Kontekst implements FintMainObject {
             OVERORDNET
     }
 
-    @NonNull
-    private Identifikator id;
-    @NonNull
+    @NotNull
+    private @Valid Identifikator id;
+    @NotBlank
     private String navn;
-    @NonNull
+    @NotBlank
     private String stereotype;
 }

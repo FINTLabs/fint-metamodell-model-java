@@ -6,8 +6,9 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.EqualsAndHashCode;
 import lombok.ToString;
-import lombok.NonNull;
 import java.util.List;
+import javax.validation.Valid;
+import javax.validation.constraints.*;
 import no.fint.model.FintMainObject;
 import no.fint.model.metamodell.kompleksedatatyper.Attributt;
 import no.fint.model.metamodell.kompleksedatatyper.Dokumentasjon;
@@ -24,16 +25,14 @@ public class Klasse implements FintMainObject {
             ARVER
     }
 
-    @NonNull
+    @NotNull
     private Boolean abstrakt;
-    @NonNull
-    private List<Attributt> attributter;
-    @NonNull
-    private List<Dokumentasjon> dokumentasjon;
-    @NonNull
-    private Identifikator id;
-    @NonNull
+    private List<@Valid Attributt> attributter;
+    private List<@Valid Dokumentasjon> dokumentasjon;
+    @NotNull
+    private @Valid Identifikator id;
+    @NotBlank
     private String navn;
-    @NonNull
+    @NotBlank
     private String stereotype;
 }
