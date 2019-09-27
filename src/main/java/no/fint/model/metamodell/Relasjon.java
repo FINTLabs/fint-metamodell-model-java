@@ -1,4 +1,4 @@
-// Built from tag master
+// Built from tag v1.0.0-rc-2
 
 package no.fint.model.metamodell;
 
