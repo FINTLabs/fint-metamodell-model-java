@@ -16,17 +16,33 @@ repositories {
     mavenLocal()
 }
 
+//configurations {
+//    compileOnly {
+//        extendsFrom annotationProcessor
+//    }
+//}
+//
+//publishing {
+//    publications {
+//        mavenJava(MavenPublication) {
+//            from components.java
+//        }
+//    }
+//    repositories {
+//        mavenLocal()
+//    }
+//}
+
 dependencies {
     implementation 'no.fint:fint-model-core:0.2.1'
     implementation 'no.fint:fint-model-resource:0.4.1'
 
-    compileOnly 'org.projectlombok:lombok:1.18.22'
-    annotationProcessor 'org.projectlombok:lombok:1.18.22'
-
-    // Added these because of build trouble in github-actions that made no sens:
     implementation 'com.fasterxml.jackson.core:jackson-databind:2.9.0'
     implementation 'com.fasterxml.jackson.core:jackson-core:2.9.8'
     implementation 'com.fasterxml.jackson.core:jackson-annotations:2.9.8'
+
+    compileOnly 'org.projectlombok:lombok:1.18.22'
+    annotationProcessor 'org.projectlombok:lombok:1.18.22'
 }
 
 apply from: 'https://raw.githubusercontent.com/FINTLabs/fint-buildscripts/master/reposilite.ga.gradle'
