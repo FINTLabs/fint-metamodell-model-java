@@ -6,10 +6,6 @@ plugins {
 group = 'no.fintlabs'
 sourceCompatibility = 1.8
 
-//if(JavaVersion.current() != JavaVersion.VERSION_1_8){
-//    throw new GradleException("This build must be run with java 8")
-//}
-
 repositories {
     mavenCentral()
     repositories {
@@ -40,17 +36,13 @@ publishing {
 dependencies {
     implementation('no.fint:fint-model-core:0.2.1')
     implementation('no.fint:fint-model-resource:0.4.1')
-//    implementation 'com.fasterxml.jackson.core:jackson-databind:2.9.0'
-//    implementation 'com.fasterxml.jackson.core:jackson-core:2.9.8'
-//    implementation 'com.fasterxml.jackson.core:jackson-annotations:2.9.8'
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.9.0'
+    implementation 'com.fasterxml.jackson.core:jackson-core:2.9.8'
+    implementation 'com.fasterxml.jackson.core:jackson-annotations:2.9.8'
 
     compileOnly 'org.projectlombok:lombok:1.18.22'
     annotationProcessor 'org.projectlombok:lombok:1.18.22'
-
-
 }
 
 apply from: 'https://raw.githubusercontent.com/FINTLabs/fint-buildscripts/master/reposilite.ga.gradle'
-
-
 
