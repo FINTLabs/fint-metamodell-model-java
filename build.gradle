@@ -3,6 +3,7 @@ plugins {
     id 'maven-publish'
 }
 
+group = 'no.fintlabs'
 sourceCompatibility = 1.8
 
 //if(JavaVersion.current() != JavaVersion.VERSION_1_8){
@@ -10,11 +11,28 @@ sourceCompatibility = 1.8
 //}
 
 repositories {
+    mavenLocal()
     maven {
         url "https://repo.fintlabs.no/releases"
     }
-    mavenLocal()
     mavenCentral()
+}
+
+configurations {
+    compileOnly {
+        extendsFrom annotationProcessor
+    }
+}
+
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            from components.java
+        }
+    }
+    repositories {
+        mavenLocal()
+    }
 }
 
 dependencies {
