@@ -9,9 +9,7 @@ import lombok.ToString;
 import java.util.List;
 import javax.validation.Valid;
 import javax.validation.constraints.*;
-import no.fint.model.FintComplexDatatypeObject;
-import no.fint.model.metamodell.kompleksedatatyper.Dokumentasjon;
-import no.fint.model.metamodell.kompleksedatatyper.Multiplisitet;
+import no.novari.fint.model.FintComplexDatatypeObject;
 
 @Data
 @NoArgsConstructor

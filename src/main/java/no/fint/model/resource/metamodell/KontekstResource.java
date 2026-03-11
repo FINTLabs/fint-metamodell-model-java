@@ -16,10 +16,10 @@ import java.util.Map;
 import javax.validation.Valid;
 import javax.validation.constraints.*;
 
-import no.fint.model.FintMainObject;
-import no.fint.model.resource.FintLinks;
-import no.fint.model.resource.Link;
-import no.fint.model.metamodell.kompleksedatatyper.Identifikator;
+import no.novari.fint.model.FintIdentifikator;
+import no.novari.fint.model.FintMainObject;
+import no.novari.fint.model.resource.FintLinks;
+import no.novari.fint.model.resource.Link;
 
 @Data
 @NoArgsConstructor
@@ -28,7 +28,7 @@ import no.fint.model.metamodell.kompleksedatatyper.Identifikator;
 public class KontekstResource implements FintMainObject, FintLinks {
     // Attributes
     @NotNull
-    private @Valid Identifikator id;
+    private @Valid FintIdentifikator id;
     @NotBlank
     private String navn;
     @NotBlank
@@ -58,5 +58,10 @@ public class KontekstResource implements FintMainObject, FintLinks {
     }
     public void addOverordnet(Link link) {
         addLink("overordnet", link);
+    }
+
+    @Override
+    public Map<String, FintIdentifikator> getIdentifikators() {
+        return id == null ? Collections.emptyMap() : Collections.singletonMap("id", id);
     }
 }

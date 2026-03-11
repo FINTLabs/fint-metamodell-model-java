@@ -9,8 +9,7 @@ import lombok.ToString;
 import java.util.List;
 import javax.validation.Valid;
 import javax.validation.constraints.*;
-import no.fint.model.FintComplexDatatypeObject;
-import no.fint.model.metamodell.kompleksedatatyper.Periode;
+import no.novari.fint.model.FintComplexDatatypeObject;
 
 @Data
 @NoArgsConstructor
