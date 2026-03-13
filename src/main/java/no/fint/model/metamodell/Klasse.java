@@ -16,8 +16,8 @@ import javax.validation.constraints.*;
 import no.fint.model.metamodell.kompleksedatatyper.Attributt;
 import no.fint.model.metamodell.kompleksedatatyper.Dokumentasjon;
 import no.fint.model.metamodell.kompleksedatatyper.Identifikator;
-import no.novari.fint.model.FintIdentifikator;
 import no.novari.fint.model.FintMainObject;
+import no.novari.fint.model.FintIdentifikator;
 
 @Data
 @NoArgsConstructor
@@ -35,11 +35,12 @@ public class Klasse implements FintMainObject {
     private List<@Valid Attributt> attributter;
     private List<@Valid Dokumentasjon> dokumentasjon;
     @NotNull
-    private @Valid FintIdentifikator id;
+    private @Valid Identifikator id;
     @NotBlank
     private String navn;
     @NotBlank
     private String stereotype;
+
     @Override
     public Map<String, FintIdentifikator> getIdentifikators() {
         return id == null ? Collections.emptyMap() : Collections.singletonMap("id", id);

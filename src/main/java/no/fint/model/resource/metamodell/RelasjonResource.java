@@ -18,8 +18,9 @@ import javax.validation.constraints.*;
 
 import no.fint.model.metamodell.kompleksedatatyper.Dokumentasjon;
 import no.fint.model.metamodell.kompleksedatatyper.Multiplisitet;
-import no.novari.fint.model.FintIdentifikator;
+import no.fint.model.metamodell.kompleksedatatyper.Identifikator;
 import no.novari.fint.model.FintMainObject;
+import no.novari.fint.model.FintIdentifikator;
 import no.novari.fint.model.resource.FintLinks;
 import no.novari.fint.model.resource.Link;
 
@@ -31,7 +32,7 @@ public class RelasjonResource implements FintMainObject, FintLinks {
     // Attributes
     private List<@Valid Dokumentasjon> dokumentasjon;
     @NotNull
-    private @Valid FintIdentifikator id;
+    private @Valid Identifikator id;
     private List<@Valid Multiplisitet> multiplisitet;
     @NotBlank
     private String navn;
@@ -40,10 +41,7 @@ public class RelasjonResource implements FintMainObject, FintLinks {
     @Getter
     private final Map<String, List<Link>> links = createLinks();
 
-    @Override
-    public Map<String, FintIdentifikator> getIdentifikators() {
-        return id == null ? Collections.emptyMap() : Collections.singletonMap("id", id);
-    }
+
 
     @JsonIgnore
     public List<Link> getKilde() {
@@ -58,5 +56,10 @@ public class RelasjonResource implements FintMainObject, FintLinks {
     }
     public void addMal(Link link) {
         addLink("mal", link);
+    }
+
+    @Override
+    public Map<String, FintIdentifikator> getIdentifikators() {
+        return id == null ? Collections.emptyMap() : Collections.singletonMap("id", id);
     }
 }

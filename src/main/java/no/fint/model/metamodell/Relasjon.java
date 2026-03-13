@@ -16,8 +16,8 @@ import javax.validation.constraints.*;
 import no.fint.model.metamodell.kompleksedatatyper.Dokumentasjon;
 import no.fint.model.metamodell.kompleksedatatyper.Identifikator;
 import no.fint.model.metamodell.kompleksedatatyper.Multiplisitet;
-import no.novari.fint.model.FintIdentifikator;
 import no.novari.fint.model.FintMainObject;
+import no.novari.fint.model.FintIdentifikator;
 
 @Data
 @NoArgsConstructor
@@ -31,7 +31,7 @@ public class Relasjon implements FintMainObject {
 
     private List<@Valid Dokumentasjon> dokumentasjon;
     @NotNull
-    private @Valid FintIdentifikator id;
+    private @Valid Identifikator id;
     private List<@Valid Multiplisitet> multiplisitet;
     @NotBlank
     private String navn;

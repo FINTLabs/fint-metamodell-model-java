@@ -18,8 +18,9 @@ import javax.validation.constraints.*;
 
 import no.fint.model.metamodell.kompleksedatatyper.Attributt;
 import no.fint.model.metamodell.kompleksedatatyper.Dokumentasjon;
-import no.novari.fint.model.FintIdentifikator;
+import no.fint.model.metamodell.kompleksedatatyper.Identifikator;
 import no.novari.fint.model.FintMainObject;
+import no.novari.fint.model.FintIdentifikator;
 import no.novari.fint.model.resource.FintLinks;
 import no.novari.fint.model.resource.Link;
 
@@ -34,7 +35,7 @@ public class KlasseResource implements FintMainObject, FintLinks {
     private List<@Valid Attributt> attributter;
     private List<@Valid Dokumentasjon> dokumentasjon;
     @NotNull
-    private @Valid FintIdentifikator id;
+    private @Valid Identifikator id;
     @NotBlank
     private String navn;
     @NotBlank
