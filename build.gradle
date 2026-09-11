@@ -4,7 +4,11 @@ plugins {
 }
 
 group = 'no.fintlabs'
-sourceCompatibility = 1.8
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
+}
 
 repositories {
     mavenCentral()
@@ -36,9 +40,9 @@ publishing {
 dependencies {
     implementation('no.fint:fint-model-core:0.2.1')
     implementation('no.fint:fint-model-resource:0.4.1')
-    implementation 'com.fasterxml.jackson.core:jackson-databind:2.9.0'
-    implementation 'com.fasterxml.jackson.core:jackson-core:2.9.8'
-    implementation 'com.fasterxml.jackson.core:jackson-annotations:2.9.8'
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.22.2'
+    implementation 'com.fasterxml.jackson.core:jackson-core:2.22.2'
+    implementation 'com.fasterxml.jackson.core:jackson-annotations:2.22'
 
     compileOnly 'org.projectlombok:lombok:1.18.46'
     annotationProcessor 'org.projectlombok:lombok:1.18.46'
