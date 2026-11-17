@@ -41,7 +41,7 @@ dependencies {
     implementation('no.fint:fint-model-core:0.2.1')
     implementation('no.fint:fint-model-resource:0.4.1')
     implementation 'com.fasterxml.jackson.core:jackson-databind:2.23.0'
-    implementation 'com.fasterxml.jackson.core:jackson-core:2.22.4'
+    implementation 'com.fasterxml.jackson.core:jackson-core:2.23.0'
     implementation 'com.fasterxml.jackson.core:jackson-annotations:2.23'
 
     compileOnly 'org.projectlombok:lombok:1.18.48'
